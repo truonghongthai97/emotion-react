@@ -1,0 +1,59 @@
+/* $lineHeight: 2px;
+
+body {
+  background-color: gray;
+}
+
+.container {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.divider-wrapper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 50px;
+}
+
+.divider {
+  position: relative;
+  width: 100%;
+
+  &::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 99px;
+    position: absolute;
+    top: calc(-25px + #{$lineHeight}/2);
+    left: -25px;
+  }
+
+  &::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 99px;
+    position: absolute;
+    top: calc(-25px + #{$lineHeight}/2);
+    right: -25px;
+  }
+}
+
+.line {
+  max-width: 80%;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    to right,
+    black 33%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 28px $lineHeight;
+  background-repeat: repeat-x;
+  height: $lineHeight;
+} */
