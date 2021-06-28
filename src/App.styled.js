@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import Button from "./StyledComponents/Button.styled";
+import Button from "./components/Button/Button.style";
 import { mq, colors } from "./utils/style/variables";
 import Title from "./components/Title";
 
